@@ -11,6 +11,7 @@ sudo chmod a+x addfiles     (Give execution permissions to run the file)
 I have included a weights file (it’s learning file) which I use, but if you wish to try your own, these distilled weights have been purposely built for slower CPU based systems like the Raspberry Pi:
   
 https://github.com/dkappe/leela-chess-weights/wiki/Distilled-Networks 
+ 
 I prefer the ‘ID11258-112x9-se’ file, this will need to be copied to /opt/picochess/engines/armv7l and my provided ‘weights9149.converted.txt’ file will need to be moved elsewhere.
   
 You can also try the newest weights files here: 
