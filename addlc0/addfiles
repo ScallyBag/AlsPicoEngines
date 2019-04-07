@@ -1,0 +1,21 @@
+#!/bin/bash
+
+clear
+echo Stopping Picochess ....
+sudo service picochess stop
+sudo chmod a+x lc0v0210
+sleep 1
+echo Copying files ....
+sudo cp -n engine* /opt/picochess/engines/armv7l
+sudo cp -n lc0* /opt/picochess/engines/armv7l
+sudo cp -n weight* /opt/picochess/engines/armv7l
+sleep 1
+cd /opt/picochess/engines/armv7l/
+echo Creating new engines.ini ....
+sudo cp -n engines.ini engines.ini.save
+sudo rm engines.ini
+sudo sed wengines.ini engines.ini.save engines.ini.lc0v0210
+sleep 1
+echo All done, rebooting ....
+sleep 2
+sudo reboot

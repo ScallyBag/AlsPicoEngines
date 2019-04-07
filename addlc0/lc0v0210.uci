@@ -1,0 +1,23 @@
+[DEFAULT]
+Hash = 128
+#WeightsFile = /opt/picochess/engines/armv7l/weights.txt
+SyzygyPath = /opt/picochess/tablebases/syzygy
+MinibatchSize = 1
+MaxPrefetch = 00
+SmartPruningFactor = 5 
+Slowmover = 1.2
+MoveOverheadMs = 1000
+MaxCollisionVisits = 1
+;Scale thinking time = 1.600000
+
+[1 Core]
+Threads = 1
+
+[2 Cores]
+Threads = 2
+
+[3 Cores]
+Threads = 3
+
+[4 Cores]
+Threads = 4
