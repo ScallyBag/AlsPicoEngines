@@ -3,17 +3,16 @@
 clear
 echo Stopping Picochess ....
 sudo service picochess stop
-sudo chmod a+x lc0v0220
 sleep 1
 echo Copying files ....
 sudo cp -n engine* /opt/picochess/engines/armv7l
-sudo cp -n lc0* /opt/picochess/engines/armv7l
-sudo cp -n weight* /opt/picochess/engines/armv7l
+sudo cp -n adapt* /opt/picochess/engines/armv7l
+sudo cp -n crystalH* /opt/picochess/engines/armv7l
 sleep 1
 cd /opt/picochess/engines/armv7l/
 echo Creating new engines.ini ....
-sudo mv -n engines.ini engines.ini.save.lc0
-sudo sed wengines.ini engines.ini.save.lc0 engines.ini.lc0v0220
+sudo mv -n engines.ini engines.ini.save.adapt
+sudo sed wengines.ini engines.ini.save.adapt engines.ini.adapt engines.ini.crystalHoney
 sleep 1
 echo All done, rebooting ....
 sleep 2

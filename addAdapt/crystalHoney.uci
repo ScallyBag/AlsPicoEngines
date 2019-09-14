@@ -1,0 +1,162 @@
+[DEFAULT]
+Hash = 16
+Threads = 1
+BestBookMove = false
+Use_Book_1 = true
+Book_File_1 = 
+Use_Book_2 = true
+Book_File_2 =
+Use_Book_3 = true 
+Book_File_3 = 
+Use_Book_4 = true
+Book_File_4 = 
+SyzygyPath = /opt/picochess/tablebases/syzygy/
+UCI_LimitStrength = true
+Ponder = false
+Adaptive_Play = Off
+UCI_Sleep = true
+
+[01 Newbie]
+UCI_Elo = 850
+
+[02 Elo 0925]
+UCI_Elo = 925
+
+[03 Novice]
+UCI_Elo = 1000
+
+[04 Elo 1075] 
+UCI_Elo = 1075
+ 
+[05 New Club]
+UCI_Elo = 1150  
+
+[06 Boris] 
+UCI_Elo = 1225
+
+[07 Club]  
+UCI_Elo = 1300
+
+[08 Class D]
+UCI_Elo = 1375
+
+[09 Elo 1450]
+UCI_Elo = 1450
+
+[10 Class C]
+UCI_Elo = 1525
+
+[11 Elo 1600]  
+UCI_Elo = 1600
+
+[12 Class B]
+UCI_Elo = 1675
+
+[13 Elo 1750]
+UCI_Elo = 1750
+
+[14 Class A]
+UCI_Elo = 1825
+
+[15 Elo 1900]
+UCI_Elo = 1900
+Hash = 32
+
+[16 Expert]
+UCI_Elo = 1975
+Hash = 32
+
+[17 Elo 2050]
+UCI_Elo = 2050
+Hash = 32
+
+[18 Master]
+UCI_Elo = 2125
+Hash = 32
+
+[19 Cray Blz]
+UCI_Elo = 2200
+Hash = 32
+
+[20 IM]
+UCI_Elo = 2300
+Hash = 32
+
+[21 SeniorIM]
+UCI_Elo = 2400
+Hash = 32
+
+[22 Deep Tht]
+UCI_Elo = 2500
+Hash = 32
+
+[23 GM]
+UCI_Elo = 2600
+Hash = 32
+
+[24 Super GM]
+UCI_Elo = 2700
+Hash = 32
+BestBookMove = true
+
+[25 Elo 2800]
+UCI_Elo = 2800
+Hash = 32
+BestBookMove = true
+
+[26 World Ch]
+UCI_Elo = 2900
+Slow Mover = 84
+Move Overhead = 500
+Hash = 64
+Ponder = true
+BestBookMove = true
+
+[27 Elo 3000]
+Slow Mover = 84
+Move Overhead = 500
+Hash = 96
+Ponder = true
+BestBookMove = true
+UCI_LimitStrength = false
+UCI_Sleep = false
+
+[28 Elo 3100]
+Slow Mover = 84
+Move Overhead = 500
+Threads = 2
+Hash = 192
+Ponder = true
+BestBookMove = true
+UCI_LimitStrength = false
+UCI_Sleep = false
+
+[29 Elo 3200]
+Slow Mover = 84
+Move Overhead = 500
+Threads = 4
+Hash = 192
+Ponder = true
+BestBookMove = true
+UCI_LimitStrength = false
+UCI_Sleep = false
+
+[Adpt-Novice]
+Slow Mover = 84
+Move Overhead = 500
+Adaptive_Play = Novice
+Hash = 32
+Ponder = true
+
+[Adpt-Advanc]
+Slow Mover = 84
+Move Overhead = 500
+Adaptive_Play = Advanced
+Hash = 32
+
+[Adpt-Expert]
+Slow Mover = 84
+Move Overhead = 500
+Adaptive_Play = Expert
+Hash = 32
+

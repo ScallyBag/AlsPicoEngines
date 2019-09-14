@@ -1,0 +1,18 @@
+[adapt.sh]
+;usebook = True
+;trueval = True
+;bookpath = Elo2400.bin
+;mtime = 3
+;nummov = 20
+;ev = 100
+;lambda = 10
+;alim = 200
+;waitbook = True
+;enginepath = stockfish
+name = Adaptive engine by Martin Droege (2019) inspired by DGT Centaur
+small = Adapt.
+medium = Adaptive
+large = AdaptiveEng
+elo = hopefully similar to your ELO
+ponder/brain = n
+
