@@ -1,4 +1,4 @@
-Once you have copied this folder to your Raspberry Pi you will need to type this commands:
+Once you have copied this folder to your Raspberry Pi you will need to type this command:
  
 ./addfiles2     
  
