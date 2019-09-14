@@ -653,8 +653,8 @@ class PicoTalkerDisplay(DisplayMsg, threading.Thread):
                     if self.play_game and self.setpieces_voice:
                         self.talk(self.say_last_move(
                             self.play_game), self.COMPUTER)
-                    else:
-                        self.talk(['setpieces.ogg'])
+                    else:  #Al
+                        self.talk(['setpieces.ogg'])  #Al
                 else:  # Default
                     pass
             except queue.Empty:
