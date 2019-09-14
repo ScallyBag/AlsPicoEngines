@@ -15,6 +15,7 @@ echo Creating new engines.ini ....
 sudo mv -n engines.ini engines.ini.save.lc0
 sudo sed wengines.ini engines.ini.save.lc0 engines.ini.lc0v0220
 sleep 1
+sudo rm engines.ini.lc0v0220
 echo All done, rebooting ....
 sleep 2
 sudo reboot

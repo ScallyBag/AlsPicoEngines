@@ -14,6 +14,8 @@ echo Creating new engines.ini ....
 sudo mv -n engines.ini engines.ini.save.adapt
 sudo sed wengines.ini engines.ini.save.adapt engines.ini.adapt engines.ini.crystalHoney
 sleep 1
+sudo rm engines.ini.adapt
+sudo rm engines.ini.crystalHoney
 echo All done, rebooting ....
 sleep 2
 sudo reboot
