@@ -47,7 +47,7 @@
 ;MinibatchSize = 256
 ;KLDGainAverageInterval = 100
 ;NNCacheSize = 200000
-name = Lc0 v0.23.0-rc1+git.5535d75
+name = Lc0 v0.23.0-rc1
 small = Lc0230
 medium = Lc0 0230
 large = Lc0 v0.23.0
