@@ -1,0 +1,22 @@
+[rodentIV]
+;Ponder = False
+;Threads = 1
+;Verbose = False
+;MultiPV = 1
+;Taunting = False
+;UCI_LimitStrength = True
+;PrintPv = True
+;TimeBuffer = 10
+;Clear Hash =
+;Personality = ---
+;UCI_Elo = 2800
+;Hash = 16
+;MobilityRebalancing = False
+;VerboseBook = False
+;UseBook = True
+name = Rodent IV V0.26 32-bit/arm/GCC 7.2.0/SMP
+small = Rodent
+medium = Rodent 4
+large = Rodent IV
+elo = 2814
+
