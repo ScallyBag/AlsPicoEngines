@@ -1,7 +1,7 @@
 [DEFAULT]
 Hash = 128
-WeightsFile = /opt/picochess/engines/armv7l/weights/weights.txt
-#Backend = random
+;WeightsFile = /opt/picochess/engines/armv7l/weights/weights.txt
+;Backend = random
 SyzygyPath = /opt/picochess/tablebases/syzygy
 DirichletNoise = True
 MinibatchSize = 16
